@@ -507,11 +507,11 @@ line-height:40px;}
     background:url(../img/poker.png);    background-size: auto 100%;
 
 }
-.col:nth-child(5) .work-z{
+.col:nth-child(6) .work-z{
     background:url(../img/can.png);    background-size: auto 100%;
 
 }
-.col:nth-child(6) .work-z{
+.col:nth-child(5) .work-z{
     background:url(../img/dazi1.jpg);
     background-size:  80% auto;
 
@@ -545,11 +545,11 @@ line-height:40px;}
         background:url(../img/poker.png);    background-size: auto 100%;
 
     }
-    .col:nth-child(5) .work-z{
+    .col:nth-child(6) .work-z{
         background:url(../img/can.png);    background-size: auto 100%;
 
     }
-    .col:nth-child(6) .work-z{
+    .col:nth-child(5) .work-z{
         background:url(../img/dazi1.jpg);        background-size: 100% auto;
 
 
@@ -719,11 +719,11 @@ line-height:40px;}
         background:url(../img/poker.png);    background-size: auto 100%;
 
     }
-    .col:nth-child(5) .work-z{
+    .col:nth-child(6) .work-z{
         background:url(../img/can.png);    background-size: auto 100%;
 
     }
-    .col:nth-child(6) .work-z{
+    .col:nth-child(5) .work-z{
         background:url(../img/dazi1.jpg);        background-size:  100% 100%;
 
         /*background-size: 316px auto;*/
