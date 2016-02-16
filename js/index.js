@@ -50,26 +50,25 @@ $(function(){
         $(".ss").slideToggle(200);
     });
     $(".work-z").hover(function(){
+        $(this).find("p").css({display:"block"});
         $(this).find($(".hid")).css({
             height:"100%",
-            webkitTransition: "height  1s linear "
+            webkitTransition: "height  0.5s linear "
 
         });
         $(this).find($(".wcon")).css({"display":"block" ,
-            webkitTransition: "display 1s linear "
+            webkitTransition: "display 0.5s linear "
         })
-
-
     },function(){
+        $(this).find("p").css({display:"none"});
+
         $(this).find($(".hid")).css({
             height:0,
-            webkitTransition: "height 1s linear "
-
+            webkitTransition: "height 0.5s linear "
         });
         $(this).find($(".wcon")).css({"display":"none",
-            webkitTransition: "display 1s linear "
+            webkitTransition: "display 0.5s linear "
         })
-
     })
     $(".weixin").hover(function(){
         $(this).find(".weixintu").fadeIn();
