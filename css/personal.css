@@ -513,7 +513,7 @@ line-height:40px;}
 }
 .col:nth-child(5) .work-z{
     background:url(../img/dazi1.jpg);
-    background-size:  80% auto;
+    background-size:  100% 100%;
 
     /*background-size: 316px auto;*/
 
@@ -546,11 +546,11 @@ line-height:40px;}
 
     }
     .col:nth-child(6) .work-z{
-        background:url(../img/can.png);    background-size: auto 100%;
+        background:url(../img/can.png);    background-size:  100% auto;
 
     }
     .col:nth-child(5) .work-z{
-        background:url(../img/dazi1.jpg);        background-size: 100% auto;
+        background:url(../img/dazi1.jpg);        background-size: 100% 100%;
 
 
     }
@@ -651,7 +651,7 @@ line-height:40px;}
     }
     .clear{clear:both}
     .jn-con{
-        font-size: 30px;
+        font-size: 18px;
     }
     .work .container-fluid{
         width:80%;
