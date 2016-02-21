@@ -6,12 +6,12 @@ body{
 a{
     text-decoration: none;
     color:white;
-    transition:all ease 0.5s;
+    transition:all ease 0.2s;
 }
 .header a:hover{
     text-decoration: none;
     color:white;
-    font-size: 16px;
+    font-size: 14px;
 
 }
 .title a{
@@ -188,8 +188,8 @@ line-height:40px;}
     padding-bottom: 15px;
 }
 .hobby .container{
-    width:70%;
-    margin:10px auto;
+    width:100%;
+    /*margin:10px auto;*/
 }
 .hobby .tub{
     width:100px;
@@ -206,11 +206,13 @@ line-height:40px;}
     /*font-family:demo;*/
 }
 .tub:hover{
+    transform:scale(1.2,1.2);
+    border:1px solid #ccc;
     /*margin-top:10px;*/
-    background: #c8c8c8;
-    color:white;
+    /*background: #c8c8c8;*/
+    /*color:white;*/
     /*animation: a3 2s linear 1s;*/
-    animation: a4 1s linear ;
+    /*animation: a4 1s linear ;*/
 
     /*animation: marginLeft 1s linear ;*/
 }
@@ -375,7 +377,7 @@ line-height:40px;}
     height:150px;
     border:1px solid white;
     margin:30px auto;
-    background:url("../img/wei.png");
+    background:url("../img/personal.png");
     background-size: 150px auto;
 
 }
