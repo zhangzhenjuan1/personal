@@ -188,8 +188,11 @@ line-height:40px;}
     padding-bottom: 15px;
 }
 .hobby .container{
-    width:100%;
+    width:90%;
     /*margin:10px auto;*/
+}
+.aboutme{
+    padding:0;
 }
 .hobby .tub{
     width:100px;
@@ -204,10 +207,15 @@ line-height:40px;}
     font-size: 40px;
     /*font-weight: 200;*/
     /*font-family:demo;*/
+    transition:all 0.5s ease;
+    /*background: blue;*/
 }
 .tub:hover{
+    /*width:120px;*/
+    /*height:120px;*/
     transform:scale(1.2,1.2);
     border:1px solid #ccc;
+
     /*margin-top:10px;*/
     /*background: #c8c8c8;*/
     /*color:white;*/
@@ -216,6 +224,7 @@ line-height:40px;}
 
     /*animation: marginLeft 1s linear ;*/
 }
+@keyframes scale
 /*.tub:hover {*/
     /*transform : rotate(-30deg) translate(1.5px,9px);*/
 /*}*/
@@ -526,6 +535,10 @@ line-height:40px;}
     text-decoration: none;
 }
 @media screen and (min-width:730px) and(max-width:1100px){
+    .hobby .container{
+    width:100%;
+    /*margin:10px auto;*/
+}
     .daohang{
         display: none;
     }
@@ -731,4 +744,8 @@ line-height:40px;}
 
     }
 
+.hobby .container{
+    width:100%;
+    /*margin:10px auto;*/
+}
 }
